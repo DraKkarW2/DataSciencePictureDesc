@@ -12,7 +12,8 @@ import random
 input_shape = (128, 128, 3)
 batch_size = 32
 epochs = 10
-dataset_dir = r'C:\Users\steve\Documents\GitHub\DataSciencePictureDesc\DataSets\data_set_livrable_1'  
+base_dir = os.path.dirname(os.path.abspath(__file__))
+dataset_dir = os.path.join(base_dir, 'DataSets', 'data_set_livrable_1')
 
 
 datagen = ImageDataGenerator(rescale=1./255, validation_split=0.2)  
