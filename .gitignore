@@ -2,3 +2,4 @@ venv/
 data-science-env/
 .env/
 DataSets/
+Project/CNN_Architectures/LeNET-5/tuner_results/
